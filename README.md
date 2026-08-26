@@ -1,16 +1,184 @@
-# React + Vite
+# 🤖 AIVerse — AI-Powered Conversational Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AIVerse is a modern AI-powered conversational assistant built with **React.js**, **Google Gemini API**, and **Supabase**.
 
-Currently, two official plugins are available:
+The application provides a Gemini-inspired chat experience with persistent conversations, authentication, streaming AI responses, Markdown rendering, code blocks, conversation management, dark/light mode, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live Demo:**  https://ai-verse-gamma.vercel.app/
 
-## Expanding the ESLint configuration
+🔗 **GitHub Repository:** https://github.com/naved2001/AIVerse
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+### 💬 AI Chat
+
+![AIVerse Chat](./public/screenshots/chat.png)
+
+### 🌙 Dark Mode
+
+![AIVerse Dark Mode](./public/screenshots/dark-mode.png)
+
+### 🔐 Authentication
+
+![AIVerse Authentication](./public/screenshots/auth.png)
+![AIVerse Authentication](./public/screenshots/auth1.png)
+
+---
+
+# ✨ Features
+
+## 🤖 AI-Powered Conversations
+
+- Integrated with Google Gemini API
+- Natural-language conversations
+- Context-aware conversation history
+- Streaming AI responses
+- Loading and typing indicators
+- Error handling for failed requests
+
+## 💬 Chat Management
+
+- Create new conversations
+- Automatically generate conversation titles
+- View previous conversations
+- Select previous conversations
+- Rename conversations
+- Delete individual conversations
+- Delete all conversations
+- Search conversations
+
+## ✏️ Message Features
+
+- Edit user messages
+- Regenerate AI responses
+- Markdown rendering
+- Headings
+- Lists
+- Links
+- Blockquotes
+- Inline code
+- Code blocks
+
+## 💻 Developer-Friendly Code Blocks
+
+- Syntax-aware code rendering
+- Language labels
+- Copy code functionality
+- Responsive code blocks
+
+## 🔐 Authentication
+
+- User registration
+- User login
+- User logout
+- Protected application interface
+- Persistent user sessions
+
+Authentication and data persistence are handled using Supabase.
+
+## 💾 Persistent Conversations
+
+Conversation history is stored in Supabase so users can return to previous conversations after refreshing or logging back into the application.
+
+## 🎨 User Interface
+
+- Modern Gemini-inspired interface
+- Light mode
+- Dark mode
+- Responsive layout
+- Mobile sidebar navigation
+- Profile menu
+- Search interface
+- Loading states
+- Error states
+- Responsive chat window
+
+## ⌨️ Keyboard Support
+
+- Enter → Send message
+- Shift + Enter → New line
+
+## 🖼️ Image Input
+
+AIVerse also supports image input for AI-powered image-related interactions.
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+### AI
+
+- Google Gemini API
+
+### Backend / Database
+
+- Supabase
+- Supabase Authentication
+- Supabase Database
+
+### Libraries
+
+- React Markdown
+- Lucide React
+- Syntax highlighting / code rendering
+
+### Deployment
+
+- Vercel
+
+---
+
+# 🏗️ Application Architecture
+
+The application follows a component-based React architecture.
+
+```text
+AIVerse
+│
+├── Authentication
+│   ├── Login
+│   ├── Signup
+│   └── User Session
+│
+├── Chat Interface
+│   ├── Navbar
+│   ├── Sidebar
+│   ├── Welcome Screen
+│   ├── Chat Window
+│   ├── Chat Message
+│   └── Message Input
+│
+├── AI Service
+│   └── Gemini API
+│
+├── Conversation Management
+│   ├── Create
+│   ├── Read
+│   ├── Update
+│   ├── Rename
+│   └── Delete
+│
+├── Database
+│   └── Supabase
+│
+└── UI Features
+    ├── Dark / Light Mode
+    ├── Search
+    ├── Markdown
+    ├── Code Blocks
+    ├── Edit Message
+    └── Regenerate Response
