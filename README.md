@@ -18,16 +18,16 @@ The application provides a Gemini-inspired chat experience with persistent conve
 
 ### 💬 AI Chat
 
-![AIVerse Chat](./public/screenshots/chat.png)
+![AIVerse Chat](./screenshots/chat.png)
 
 ### 🌙 Dark Mode
 
-![AIVerse Dark Mode](./public/screenshots/dark-mode.png)
+![AIVerse Dark Mode](./screenshots/dark-mode.png)
 
 ### 🔐 Authentication
 
-![AIVerse Authentication](./public/screenshots/auth.png)
-![AIVerse Authentication](./public/screenshots/auth1.png)
+![AIVerse Authentication](./screenshots/auth.png)
+![AIVerse Authentication](./screenshots/auth1.png)
 
 ---
 
